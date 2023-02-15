@@ -1,0 +1,30 @@
+body,html
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.conteudo
+{
+    display:flex;
+    flex-direction: row;
+    background-color: silver;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   height: 100vh;
+   align-content: space-around;
+     
+}
+
+.card
+{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    justify-items: center;
+    align-items: center;  
+}
